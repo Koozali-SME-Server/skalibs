@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:           skalibs
-Version:        2.10.0.2
+Version:        2.14.3.0
 Release:        1
 Summary:        The skarnet.org development library
 License:        BSD
@@ -56,17 +56,24 @@ mv %{buildroot}/usr/lib/* %{buildroot}/usr/lib64/
 %{_libdir}/libskarnet.so
 
 %changelog
+* Wed Nov 13 2024 Jean-Philippe Pialasse <jpp@koozali.org> - 2.14.3.0-1
+- Rebuilt for Koozali
+
 * Sun Apr 04 2021 Wei-Lun Chao <bluebat@member.fsf.org> - 2.10.0.2
 - Rebuilt for Fedora
+
 * Sun Sep 20 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.47-2mdv2010.0
 + Revision: 445130
 - rebuild
+
 * Sun Oct 26 2008 Funda Wang <fundawang@mandriva.org> 0.47-1mdv2009.1
 + Revision: 297428
 - New version 0.47
+
 * Fri Aug 08 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.46-2mdv2009.0
 + Revision: 269251
 - rebuild early 2009.0 package (before pixel changes)
+
 * Wed May 07 2008 Vincent Danen <vdanen@mandriva.com> 0.46-1mdv2009.0
 + Revision: 202905
 - import skalibs
