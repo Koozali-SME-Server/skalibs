@@ -2,7 +2,7 @@
 
 Name:           skalibs
 Version:        2.14.3.0
-Release:        1
+Release:        1%{?dist}
 Summary:        The skarnet.org development library
 License:        BSD
 Group:          Development/Other
